@@ -1,19 +1,23 @@
 # proyect_name
-here put the description of the project
+
+here put the description of the project, this template use ECMAScript Modules (ESM)
 
 ## How to use
 
 - install dependencies
+
 ```bash
 npm i
 ```
 
 - start production
+
 ```bash
 npm start
 ```
 
 - start development
+
 ```bash
 npm run dev
 ```

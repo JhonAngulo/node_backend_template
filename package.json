@@ -1,15 +1,29 @@
 {
   "name": "proyect_name",
   "version": "0.0.1",
+  "private": true,
   "description": "here put the description of the project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server",
-    "dev": "nodemon src/server"
+    "dev": "nodemon src/server",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint . --ext js,ts,cjs",
+    "lint:fix": "eslint . --ext js,ts,cjs --fix"
   },
   "author": "Jhon Manuel Angulo Moncada",
   "license": "ISC",
-  "dependencies": {
-    "nodemon": "latest"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.0",
+    "eslint-plugin-promise": "6.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
   }
 }

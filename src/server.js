@@ -1,1 +1,1 @@
-console.log("server running")
+console.log('server running')
